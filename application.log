@@ -1,0 +1,12 @@
+2026-10-11 09:00:10 INFO Application started
+2026-10-11 09:01:15 WARNING High response time
+2026-10-11 09:02:20 ERROR Database connection failed
+2026-10-11 09:03:25 INFO Request processed successfully
+2026-10-11 09:04:30 ERROR Database connection failed
+2026-10-11 09:05:35 WARNING High response time
+2026-10-11 09:06:40 ERROR Authentication failed
+2026-10-11 09:07:45 INFO Application running normally
+ERROR Database connection failed
+2026-10-11 ERROR
+WARNING Disk space running low
+2026-10-11 09:03:25 INFO WARNING messages are important
