@@ -1,0 +1,28 @@
+IT Support Log Analysis Report
+
+Error summary:
+ Database connection failed: 2 occurrences 
+ Authentication failed: 1 occurrences 
+ Most frequent error: Database connection failed 
+ Occurrences:2 
+ 
+warnings summary:
+High response time: 2 occurrences 
+Most frequent warnings: High response time
+Occurrences 2
+ 
+INFO summary:
+Application started: 1 occurrences
+Request processed successfully: 1 occurrences
+Application running normally: 1 occurrences
+WARNING messages are important: 1 occurrences
+4 INFO messages are tied for the highest frequency (1).
+INFO message: Application started
+INFO message: Request processed successfully
+INFO message: Application running normally
+INFO message: WARNING messages are important
+
+Total errors: 3
+Total warnings: 2
+Total malformed entries: 3
+Total info entries: 4

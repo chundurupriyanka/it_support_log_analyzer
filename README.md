@@ -12,16 +12,19 @@ practice Python fundamentals in an IT support troubleshooting scenario.
 
 ## Features
 
--   Reads application log entries from `application.log`.
--   Counts `ERROR`, `WARNING`, and `INFO` entries.
--   Uses dictionaries to count repeated error and warning messages.
--   Sorts error and warning messages by occurrence frequency.
--   Displays the most frequent error and warning when available.
--   Skips blank lines.
--   Counts malformed entries.
--   Handles missing files with exception handling.
--   Handles empty error and warning results without accessing the first
-    item of an empty list.
+- Reads application log entries from `application.log`.
+- Counts `ERROR`, `WARNING`, and `INFO` entries.
+- Uses dictionaries to count repeated error, warning, and INFO messages.
+- Sorts error, warning, and INFO messages by occurrence frequency.
+- Identifies the most frequent error and warning messages.
+- Identifies the most frequent INFO message or reports ties when multiple messages share the highest frequency.
+- Skips blank lines.
+- Detects and counts malformed log entries.
+- Generates an `analysis_report.txt` report containing error, warning, and INFO summaries, along with total counts.
+- Handles missing files and invalid input using exception handling.
+- Handles empty error, warning, and INFO results without accessing the first item of an empty list.
+
+
 
 ## Technologies and Python Concepts
 
